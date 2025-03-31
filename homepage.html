@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap" rel="stylesheet">
+    <title>mc</title>
+    <link rel="icon" type="image/png" href="/FAVICON/LOGO MC.png">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<!--NAVBAR -->
+<nav>
+    <div class="left">
+        <a href="#" class="logo">mc.</a>
+    </div>
+
+    <div class="right">
+        <a href="homepage.html">Home</a>
+        <a href="aboutMe.html">About Me</a>
+        <a href="workpage.html">Work</a>
+        <a href="contactMe.html">Contact Me</a>
+    </div>
+
+    <!-- Hamburger Icon -->
+    <div class="hamburger" onclick="toggleMenu()">&#9776;</div>
+</nav>
+
+<!-- Mobile Menu -->
+<div class="mobile-menu">
+    <a href="homepage.html">Home</a>
+    <a href="aboutMe.html">About Me</a>
+    <a href="workpage.html">Work</a>
+    <a href="contactMe.html">Contact Me</a>
+</div>
+
+
+<main>
+    <section class="homepageHero-section">
+        <div class="homepageText">
+            <h1>Hi, I'm MC Ganir</h1>
+            <h2>Director / Video Editor / Colorist</h2>
+            <p>Currently a college student taking Bachelor of Science in Information Technology with artistic pursuit.</p>
+
+            <img src="/ADOBE PRODUCTS LOGO/Premiere pro.png">
+            <img src="/ADOBE PRODUCTS LOGO/Lightroom Classic.png">
+            <img src="/ADOBE PRODUCTS LOGO/Ps.png">
+            <img src="/ADOBE PRODUCTS LOGO/after effects.png">
+        </div>
+
+        <!-- Right Side: Large Image -->
+        <div class="profileMc">
+            <img src="/AKO/PEACE SIGN SABAY LUNDAG.png">
+        </div>
+    </section>
+</main>
+
+<footer class="homepageFooter">
+    <hr>
+    <p class="footerLogo">mc.</p>
+    <p class="footerCR">&copy; 2025 MC. All Rights Reserved</p>
+</footer>
+
+<script>
+    function toggleMenu() {
+        const menu = document.querySelector(".mobile-menu");
+        menu.classList.toggle("active");
+    }
+</script>
+
+</body>
+</html>

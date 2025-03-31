@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap" rel="stylesheet">
+
+
+<title> mc
+</title>
+<link rel="icon" type="image/png" href="/FAVICON/LOGO MC.png">
+<link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+
+<!--NAVBAR -->
+<nav>
+    <div class="left">
+        <a href="#" class="logo">mc.</a>
+    </div>
+
+    <div class="right">
+        <a href="homepage.html">Home</a>
+        <a href="aboutMe.html">About Me</a>
+        <a href="workpage.html">Work</a>
+        <a href="contactMe.html">Contact Me</a>
+    </div>
+
+    <!-- Hamburger Icon -->
+    <div class="hamburger" onclick="toggleMenu()">&#9776;</div>
+</nav>
+
+<!-- Mobile Menu -->
+<div class="mobile-menu">
+    <a href="homepage.html">Home</a>
+    <a href="aboutMe.html">About Me</a>
+    <a href="workpage.html">Work</a>
+    <a href="contactMe.html">Contact Me</a>
+</div>
+
+<main>
+<section class = "workpageHero-section">
+<div class = "workpageText">
+
+
+    <h1>Directing / Video Editing / Color Grading / VFX </h1>
+    <p >Here are the compilation of my works.       
+    </p>
+    </div>
+
+    <div class="videos">
+        <div class="mainVideoMc">
+            <video id="videoPlayer" controls autoplay loop muted>
+                <source src="/WORK/VIDEOS/Demo.mp4" type="video/mp4">
+                Your browser does not support the video tag.
+            </video>
+        </div>
+     
+
+    <p class="Full-Length">Full-Length Videos</p>
+
+        <div class="video-row">
+            <video controls >
+                <source src="/WORK/VIDEOS/alitaptap.mp4">
+                Your browser does not support the video tag.
+            
+            </video>
+    
+            <video controls >
+                <source src="/WORK/VIDEOS/SWITCHBLADE.FINAL.4K.mp4">
+                Your browser does not support the video tag.
+            </video>
+     
+            <video controls >
+                <source src="/WORK/VIDEOS/MMW.mp4">
+                Your browser does not support the video tag.
+            </video>
+    
+            <video controls >
+                <source src="/WORK/VIDEOS/GUSNIYOPOMAGOEFW.mp4">
+                Your browser does not support the video tag.
+</video>
+                <video controls >
+                    <source src="/WORK/VIDEOS/AZI ACOSTA.mp4">
+                    Your browser does not support the video tag.
+                </video>
+
+                
+            </div>   
+</section>
+</main>
+
+
+<footer>
+    <div class ="workpageFooter">
+    <hr>
+    <p class="footerLogo">mc.</p>
+    <p class="footerCR">&copy; 2025 MC. All Rights Reserved</p>
+</div>
+</footer>
+<script>
+    function toggleMenu() {
+        const menu = document.querySelector(".mobile-menu");
+        menu.classList.toggle("active");
+    }
+</script>
+
+</body>
+</html>

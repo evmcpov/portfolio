@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap" rel="stylesheet">
+
+
+<title> mc
+</title>
+<link rel="icon" type="image/png" href="/FAVICON/LOGO MC.png">
+<link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+
+<!--NAVBAR -->
+<nav>
+    <div class="left">
+        <a href="#" class="logo">mc.</a>
+    </div>
+
+    <div class="right">
+        <a href="homepage.html">Home</a>
+        <a href="aboutMe.html">About Me</a>
+        <a href="workpage.html">Work</a>
+        <a href="contactMe.html">Contact Me</a>
+    </div>
+
+    <!-- Hamburger Icon -->
+    <div class="hamburger" onclick="toggleMenu()">&#9776;</div>
+</nav>
+
+<!-- Mobile Menu -->
+<div class="mobile-menu">
+    <a href="homepage.html">Home</a>
+    <a href="aboutMe.html">About Me</a>
+    <a href="workpage.html">Work</a>
+    <a href="contactMe.html">Contact Me</a>
+</div>
+
+
+<main>
+<section class = "contactMeHero-section">
+<div class = "Location">
+
+    <img src="/ICONS/CONTACT/LOCATION.png">
+    <h1>Valenzuela City, Philippines</h1>
+</div>
+    
+<div class = "Gmail">
+    <img src="/ICONS/CONTACT/GMAIL.png">
+    <h2>mcjemuelganir@gmail.com</h2>
+
+    </div>
+
+    <div class = "Phone">
+        <img src="/ICONS/CONTACT/PHONE.png">
+    <h3>+63 939 953 1069</h3>
+    </div>
+
+    <div class = "Messenger">
+        <img src="/ICONS/CONTACT/MESSENGER.png">
+    <h4>MC Ganir</h4>   
+    </div>
+
+
+</section>
+</main>
+
+<footer>
+    <hr>
+    <p class="footerLogo">mc.</p>
+    <p class="footerCR">&copy; 2025 MC. All Rights Reserved</p>
+</footer>
+<script>
+    function toggleMenu() {
+        const menu = document.querySelector(".mobile-menu");
+        menu.classList.toggle("active");
+    }
+</script>
+
+</body>
+</html>
